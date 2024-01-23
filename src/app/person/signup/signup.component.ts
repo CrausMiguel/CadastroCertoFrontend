@@ -26,7 +26,7 @@ export class SignupComponent {
   personForm = new FormGroup({
     name: new FormControl('', Validators.required),
     cpf: new FormControl('', Validators.required),
-    birthday: new FormControl(this.today, Validators.required)
+    birthday: new FormControl(0, Validators.required)
   })
 
   constructor(private _formBuilder: FormBuilder, private personService: PersonService,

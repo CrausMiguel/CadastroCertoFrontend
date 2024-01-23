@@ -33,7 +33,7 @@ export class DetailComponent {
     id: new FormControl(''),
     name: new FormControl('', Validators.required),
     cpf: new FormControl('', Validators.required),
-    birthday: new FormControl(this.today, Validators.required),
+    birthday: new FormControl(0, Validators.required),
     contacts: new FormControl()
   })
 
