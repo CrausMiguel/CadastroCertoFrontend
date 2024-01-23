@@ -1,0 +1,61 @@
+<div class="container-fluid d-flex align-items-center">
+  <div class="col-12">
+    <div class="col-12">
+      <div class="row">
+
+        <div class="col-8">
+          <input class="search-bar" placeholder="Pesquisar...">
+          <button class="search-button">
+            <mat-icon class="search-icon">search</mat-icon>
+          </button>
+        </div>
+        <div class="col-4">
+          <button class="add-button" (click)="redirectToSignup()">
+            <mat-icon class="add-icon">add</mat-icon>
+            <p class="add-button-text">Adicionar</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <table mat-table [dataSource]="persons">
+
+        <ng-container matColumnDef="name">
+
+          <th mat-header-cell *matHeaderCellDef>
+            <p class="title"></p>Nome
+            <button class="order-arrow-button">
+              <mat-icon class="order-arrow-icon">keyboard_arrow_up</mat-icon>
+            </button>
+            <button class="order-arrow-button">
+              <mat-icon class="order-arrow-icon">keyboard_arrow_down</mat-icon>
+            </button>
+          </th>
+
+          <td mat-cell *matCellDef="let element">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 name-row">
+                {{element.name}}
+              </div>
+
+              <div class="col-xs-12 col-sm-4 d-sm-flex justify-content-end">
+                <button class="edit-button" (click)="buttonEditList(element.id)">
+                  <mat-icon>edit</mat-icon>
+                </button>
+                <button mat-raised-button class="delete-button" (click)="buttonDeleteList(element.id)">
+                  <mat-icon>delete</mat-icon>
+                </button>
+              </div>
+            </div>
+          </td>
+
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+
+      </table>
+    </div>
+  </div>
+</div>

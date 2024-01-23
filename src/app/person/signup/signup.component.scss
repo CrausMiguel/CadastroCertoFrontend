@@ -1,0 +1,304 @@
+.botao {
+    height: 27px;
+    width: 150px;
+    border-radius: 15px;
+    border: solid white 2px !important;
+    background-color: transparent;
+    color: white !important;
+  }
+  
+  .botao:hover {
+    background-color: white;
+    color: black !important;
+  }
+  
+  .btn-next-1-step {
+    width: 120px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: transparent !important;
+    border: #c0ff7b solid 3px;
+    color: #c0ff7b;
+    position: relative; /* Adiciona position: relative para o posicionamento absoluto do ícone */
+    left: 83%;
+    border-radius: 13px;
+    color: #c0ff7b;
+  }
+  
+  .btn-next-2-step {
+    width: 120px;
+    height: 50px;
+    background-color: transparent !important;
+    border: #c0ff7b solid 3px;
+    border-radius: 13px;
+    position: relative;
+    left: 63%;
+    margin-top: 5%;
+    color: #c0ff7b;
+  }
+  
+  .btn-next-3-step {
+    width: 120px;
+    height: 50px;
+    background-color: transparent !important;
+    border: #c0ff7b solid 3px;
+    border-radius: 13px;
+    position: relative;
+    color: #c0ff7b;
+    margin-top: 5%;
+    left: 62%;
+  }
+  
+  .btn-prev {
+    background-color: transparent !important;
+    border-radius: 13px;
+    border: solid 4px white;
+    width: 120px;
+    height: 50px;
+    margin-right: 510px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #fff;
+  }
+  
+  /* bton-prev-2 não precisou*/
+  
+  .btn-prev-3 {
+    background-color: transparent !important;
+    border-radius: 13px;
+    border: solid 4px white;
+    width: 120px;
+    height: 50px;
+    margin-right: 510px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #fff;
+  }
+  
+  .caminho-topo {
+    position: relative;
+    top: 30px;
+    left: 53%;
+    transform: translateX(-50%);
+    padding: 20px;
+    color: #b6b6b6;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .card-header {
+    margin-bottom: 10px; /* Ajusta o espaçamento entre o rótulo e o botão */
+  }
+  
+  .path{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1.3rem;
+  }
+  
+  .title{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .path-button,.path-button-currently{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 1.3rem;
+  }
+  
+  .path-button-currently{
+    color:#c0ff7b;
+  }
+  
+  /* Estilo opcional para ajustar o tamanho da fonte do h1 */
+  .center-container h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .custom-card {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* Mude para 'row' para alinhar horizontalmente */
+    justify-content: space-between;
+    height: 100%; /* Garante que o card ocupa toda a altura disponível */
+    align-items: baseline; /* Alinha os itens verticalmente ao centro */
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .col-confirmar-dados h5 {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .col-dados-pessoais h5 {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+  .DadosPessoais {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .DadosPessoais-2 {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .dados-de-usuario {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  .dados-de-usuario-2 {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 40px;
+  }
+  
+  .nome,
+  .sobrenome,
+  .cpf,
+  .datadenascimento,
+  .telefone,
+  .endereco {
+    width: 100%;
+    height: 72px;
+  }
+  
+  .cep,
+  .cidade,
+  .rua,
+  .numero {
+    width: 100%;
+    height: 72px;
+  }
+  
+  .nome-sobrenome-container p,
+  .cpf-nascimento-telefone-container p,
+  .cep-cidade-estado-container p,
+  .rua-numero-container p,
+  .complemento-container p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .complemento {
+    height: 72px;
+  }
+  
+  .endereco-h5 h5 {
+    text-align: center;
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .funcao,
+  .email {
+    width: 100%;
+    height: 72px;
+  }
+  
+  .funcao-container p,
+  .email-container p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5%;
+  }
+  
+  .tipopessoaText {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1.5%;
+  }
+  
+  ::ng-deep .mat-mdc-text-field-wrapper {
+    background-color: #fff !important;
+    border-radius: 15px !important;
+    --mdc-filled-text-field-input-text-placeholder-color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+  
+  /* ::ng-deep .mat-mdc-text-field-wrapper {
+    border-radius: 15px !important;
+    background-color: #d9d9d9 !important;
+    height: 40px !important;
+  }*/
+  
+  .mat-mdc-input-element {
+    color: black !important;
+    padding-left: 3%;
+  }
+  
+  .mat-card-actions-right {
+    align-self: flex-end;
+    padding-right: 30px; /* Alinha o bloco de ações à direita dentro do card */
+  }
+  
+  .tipo-de-pessoa {
+    color: #c0ff7b;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  /* div {
+    border: #c0ff7b solid 1px;
+  }*/
+  
+  .custom-card.selected {
+    background-color: #c0ff7b;
+    color: #000;
+    
+    .botao{
+      background-color: white;
+      color: black !important;
+    }
+  }
+  
+  @media screen and (max-width: 1366px) {
+    .container {
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 100%;
+    }
+  
+    .btn-next-2-step {
+      margin-left: 4%;
+    }
+  
+    .btn-next-3-step {
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+  }
